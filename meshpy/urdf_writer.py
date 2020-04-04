@@ -74,7 +74,7 @@ def split_vhacd_output(mesh_filename):
     return out_filenames
 
 def convex_decomposition(mesh, cache_dir='', name='mesh'):
-    """ Performs a convex deomposition of the mesh using V-HACD.
+    """ Performs a convex decomposition of the mesh using V-HACD.
     
     Parameters
     ----------

@@ -10,10 +10,10 @@ import os
 import sys
 import time
 
-try:
-    import meshrender
-except:
-    pass
+#try:
+import meshrender
+#except:
+ #   pass
 
 from autolab_core import Point, RigidTransform
 from autolab_core.utils import sph2cart, cart2sph
